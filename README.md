@@ -1,9 +1,11 @@
 # gatsby-graphql-source example
 
-Simple gatsby site that displays your public owned github repos using Github GraphQL API.
+Simple gatsby site that displays list of authors fetched using Hasura GraphQL engine.
 
-[See it here](https://gatsby-github-displayer.netlify.com/)
+Check out Hasura graphql engine console [here](https://gatsby-ser.herokuapp.com/console/api-explorer)
 
 ## Running in development
 
-`GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> gatsby develop`
+1. `npm install`
+
+2. `gatsby develop`

@@ -8,20 +8,21 @@ module.exports = {
     {
       resolve: `gatsby-source-graphql`,
       options: {
-        fieldName: `github`,
-        typeName: `GitHub`,
+        fieldName: `hasura`,
+        typeName: `HASURA`,
         createLink: () =>
           createHttpLink({
-            uri: `https://api.github.com/graphql`,
-            headers: {
-              Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-            },
+            uri: `https://gatsby-ser.herokuapp.com/v1alpha1/graphql`,
+            headers: {},
             fetch,
           }),
+        // Not required, as schema will be automatically fetched using introspection
+        /*
         createSchema: async () => {
           const json = JSON.parse(fs.readFileSync(`${__dirname}/github.json`))
           return buildClientSchema(json.data)
         },
+        */
       },
     },
   ],
