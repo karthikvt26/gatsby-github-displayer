@@ -8,4 +8,4 @@ Check out Hasura graphql engine console [here](https://gatsby-ser.herokuapp.com/
 
 1. `npm install`
 
-2. `gatsby develop`
+2. `HASURA_GRAPHQL_URL=https://gatsby-ser.herokuapp.com/v1alpha1/graphql npm run develop`
