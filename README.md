@@ -1,9 +1,11 @@
-# gatsby-graphql-source example using Hasura GraphQL engine
+# gatsby-graphql-source example
 
 Simple gatsby site that displays list of authors fetched using Hasura GraphQL engine.
 
-Check out Hasura GraphQL engine console [here](https://gatsby-ser.herokuapp.com/console/api-explorer)
+Check out Hasura graphql engine console [here](https://gatsby-ser.herokuapp.com/console/api-explorer)
 
 ## Running in development
+
+`npm install`
 
 `gatsby develop`
