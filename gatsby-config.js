@@ -16,7 +16,7 @@ module.exports = {
             headers: {},
             fetch,
           }),
-        // Not required, schema will be automatically fetched using introspection
+        // Not required, as schema will be automatically fetched using introspection
         /*
         createSchema: async () => {
           const json = JSON.parse(fs.readFileSync(`${__dirname}/github.json`))
